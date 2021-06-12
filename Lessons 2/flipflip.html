@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Untitled</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box1 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box1:hover .flip-box-inner1 {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front1, .flip-box-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front1 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back1 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+}
+</style>
+</head>
+<body>
+ <!--
+<h1>3D Flip Box (Vertical)</h1>
+<h3>Hover over the box below:</h3>
+
+<div class="flip-box1">
+  <div class="flip-box-inner1">
+    <div class="flip-box-front1">
+      <h2>Front Side</h2>
+    </div>
+    <div class="flip-box-back1">
+      <h2>Back Side</h2>
+    </div>
+  </div>
+</div> -->
+
+    <div class="container">
+         <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+                <div class="flip-box1">
+                    <div class="flip-box-inner1">
+                            <div class="flip-box-front1">
+                                <h2>Front Side</h2>
+                            </div>
+                            <div class="flip-box-back1">
+                                <h2>Back Side</h2>
+                            </div>
+                    </div>
+                </div>
+              </div>
+         </div><!-- row-->
+    </div><!--container-->
+
+
+    <!-- Heading -->
+                 <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-sm-12">
+                           <h1 class="animated bounce" style="animation-delay: 4s;">
+                             Page 16
+                         </h1>
+                        </div>
+                     </div>
+
+                 <div class="row">
+                 <div class="col-sm-12">
+                  <h2 class="mb-5 font-weight-bold">OLAKUNLE EMMANUEL</h2>
+                  <h1 class="animated fadeInLeft" style="animation-delay: 1s">
+                  Carousel Fullscreen Template</h1>
+                 </div>
+                 </div>
+                <div class="row">
+                 <!--Grid Column -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="view overlay">
+                         <img class="img-fluid" src="img/48.jpg" width="781" height="521" alt="mountain">
+                        <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <h4 class="font-weight-bold">Heading 1</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                 </div>
+                 <!--Grid Column -->
+                 <!--Grid Column -->
+                <div class=" col-md-6 col-lg-4 mb-4">
+                        <div class="">
+                         <img class="img-fluid" src="img/49.jpg" width="781" height="521" alt="mountain2">
+                        <div class=""></div>
+                        </div>
+                        <h4 class="font-weight-bold">Heading 2</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                 </div>
+                    <!--Grid Column -->
+                    <!--Grid Column -->
+                 <div class=" col-md-6 col-lg-4 mb-4">
+                        <div class="">
+                         <img class="img-fluid" src="img/29.jpg" width="781" height="521" alt="mountain3">
+                        <div class=""></div>
+                        </div>
+                        <h4 class="font-weight-bold">Heading 3</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                 </div>
+                   <!--Grid Column -->
+                 <!--Grid Column -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="">
+                         <img class="img-fluid" src="img/11.jpg" width="780" height="520" alt="mountain7">
+                        <div class=""></div>
+                        </div>
+                      <h4 class="font-weight-bold">Heading 4</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                 </div>
+                 <!--Grid Column -->
+                <!--Grid Column -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="">
+                         <img class="img-fluid" src="img/10.jpg" width="780" height="520" alt="mountain6">
+                        <div class=""></div>
+                        </div>
+                        <h4 class="font-weight-bold">Heading 5</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                 </div>
+                  <!--Grid Column -->
+                   <!--Grid Column -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="">
+                         <img class="img-fluid" src="img/13.jpg" width="780" height="520" alt="mountain12">
+                        <div class=""></div>
+                        </div>
+                       <h4 class="font-weight-bold">Heading 6</h4>
+                        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                 </div>
+                 </div> <!--Grid row-->
+                 </div><!-- /.container -->
+                 
+
+</body>
+</html>
