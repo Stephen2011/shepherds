@@ -1,0 +1,75 @@
+[prefrences]
+is_autoresponde=True
+is_csv=True
+php_des=C:\1.2 NEWTEMPS-2021\GALLERY\Lesson3\form.php
+script_name=form.php
+des_folder=C:\1.2 NEWTEMPS-2021\GALLERY\Lesson3\
+is_mysql=True
+is_email=True
+success_page=
+success_path=
+error_page=
+error_path=
+is_embeded_result_page=True
+header_path=
+footer_path=
+header_img=
+footer_img=
+is_upload=False
+is_header=False
+is_footer=False
+is_creditcard=False
+success_message=<p align='center'><font face='Arial' size='3' color='#FF0000'>Form successful</font></p>
+txt_success_message=Form successful
+is_create_tble=True
+mysql_table=TABLE
+primary_key=Assigned
+ 
+[webpage]
+pagetype=0
+URL=
+path=C:\1.2 NEWTEMPS-2021\formphp.html
+nforms=1
+SelectedFormTitle=Form1
+is_date=True
+date_format=3
+is_convert_date=False
+ 
+[fields]
+nfields=3
+##fname;^False;^Please enter a valid fname;^;^8;^text;^0;^6;^6;^0;^0;^;^0;^0;^0;^6;^6;^True;^False;^0;^;^False;^http://;^;^;^;^;^[[]]
+##lname;^False;^Please enter a valid lname;^;^8;^text;^0;^6;^6;^0;^0;^;^0;^0;^0;^6;^6;^True;^False;^0;^;^False;^http://;^;^;^;^;^[[]]
+##email;^True;^Please enter a valid email;^Assigned;^2;^text;^0;^6;^6;^0;^0;^;^0;^0;^0;^6;^6;^True;^True;^0;^;^False;^http://;^;^DOUBLE;^;^;^[[]]
+ 
+[blocked ips]
+
+ 
+[email]
+sender=fname
+is_GeneericEmail=False
+is_multiRecipients=False
+email_to=stephen_jola@hotmail.com
+subject=Contact info
+ 
+[auto-responde]
+sender=stephen_jola@hotmail.com
+email_to=$fname
+subject=Contact info
+nLine=1
+Thanks for the feedback
+ 
+[CSV]
+separator=comma
+filename=Contact form
+format=*.csv
+EndLine=\r\n
+ 
+[MySQL]
+isConnect=False
+SuccessfullyConnected=False
+host=localhost
+user=root
+pw=
+port=3306
+db=MySQL
+table=TABLE
